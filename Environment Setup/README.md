@@ -14,7 +14,7 @@ The project was built on a Windows 11 host system using **VMware Workstation Pro
 - **Virtualization:** VMware Workstation Pro  
 - **Operating System:** Windows 11  
 
-🖼️ *Screenshot Placeholder:* `![Host Specifications](Environment%20Setup/snapshots/host-specs.png)`
+🖼️ *Screenshot Placeholder:* `![Host Specifications](https://github.com/GuruXdayal/SOC-Home-Lab/blob/main/Environment%20Setup/snapshots/host-specs.png?raw=true)`
 
 ---
 
@@ -114,4 +114,5 @@ Through this environment setup, I gained hands-on experience in:
 ---
 
 ⭐ *This setup built the foundation for subsequent detection engineering and incident analysis workflows documented in the later sections of this project.*
+
 
