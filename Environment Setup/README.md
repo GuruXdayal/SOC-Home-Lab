@@ -14,7 +14,7 @@ The project was built on a Windows 11 host system using **VMware Workstation Pro
 - **Virtualization:** VMware Workstation Pro  
 - **Operating System:** Windows 11  
 
-🖼️ *Screenshot Placeholder:* `![Host Specifications](../snapshots/host-specs.png)`
+🖼️ *Screenshot Placeholder:* `![Host Specifications](Environment%20Setup/snapshots/host-specs.png)`
 
 ---
 
@@ -28,7 +28,7 @@ Each virtual machine served a specific purpose in the SOC architecture, simulati
 | **Ubuntu Victim (Suricata, auditd, osquery)** | Network IDS & Linux endpoint telemetry | 6 GB   | 50 GB | NAT          |
 | **Kali Attacker**                             | Attack simulation & testing            | 3.5 GB | 60 GB | NAT          |
 
-🖼️ *Screenshot Placeholder:* `![VMware Overview](../snapshots/vmware-overview.png)`
+🖼️ *Screenshot Placeholder:* `![VMware Overview](Environment%20Setup/snapshots/vmware-overview.png)`
 
 ---
 
@@ -46,7 +46,7 @@ The SOC environment was designed as an **isolated NAT network**, enabling contro
 - Static IP assignments for predictable communication  
 - Validated routing and gateway consistency  
 
-🖼️ *Screenshot Placeholder:* `![Network Topology](../snapshots/network-topology.png)`
+🖼️ *Screenshot Placeholder:* `![Network Topology](Environment%20Setup/snapshots/network-topology.png)`
 
 ---
 
@@ -65,8 +65,8 @@ Configured and integrated the following key components:
 - **auditd** and **osquery** for Linux host monitoring  
 
 🖼️ *Screenshot Placeholders:*  
-`![Wazuh Dashboard](../snapshots/wazuh-dashboard.png)`  
-`![Suricata Configuration](../snapshots/suricata-config.png)`
+`![Wazuh Dashboard](Environment%20Setup/snapshots/wazuh-dashboard.png)`  
+`![Suricata Configuration](Environment%20Setup/snapshots/suricata-config.png)`
 
 ---
 
@@ -76,7 +76,7 @@ Verified inter-VM communication and manager-agent connectivity using:
 - Wazuh agent registration checks  
 - Suricata log forwarding validation  
 
-🖼️ *Screenshot Placeholder:* `![Ping Validation](../snapshots/ping-validation.png)`
+🖼️ *Screenshot Placeholder:* `![Ping Validation](Environment%20Setup/snapshots/ping-validation.png)`
 
 ---
 
@@ -99,7 +99,7 @@ The deployment followed a **bottom-up architecture** to ensure dependency alignm
 5. **Kali Attacker Setup** (Attack simulation)
 6. **Connectivity & Detection Validation**
 
-🖼️ *Screenshot Placeholder:* `![Final Environment Overview](../snapshots/final-env.png)`
+🖼️ *Screenshot Placeholder:* `![Final Environment Overview](Environment%20Setup/snapshots/final-env.png)`
 
 ---
 
@@ -114,3 +114,4 @@ Through this environment setup, I gained hands-on experience in:
 ---
 
 ⭐ *This setup built the foundation for subsequent detection engineering and incident analysis workflows documented in the later sections of this project.*
+
