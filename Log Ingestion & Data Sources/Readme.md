@@ -45,8 +45,8 @@ confirming secure communication with the Wazuh Manager.
 ---
 
 ## ⚙️ Ingestion Health & Normalization  
-**What to show:** Demonstrate that logs are decoded/normalized (fields extracted) and visible in Discover.  
-**How validated:** Use Wazuh Discover to inspect fielded events (source, timestamp, hostname, event_type) and confirm decoders are applied.  
+**What to show:** Demonstrated that logs are decoded/normalized (fields extracted) and visible in Discover.  
+**How validated:** Used Wazuh Discover to inspect fielded events (source, timestamp, hostname, event_type) and confirm decoders are applied.  
 **Why it matters:** Normalized fields enable rule correlation and meaningful analyst investigation later.
 
 <img width="918" height="543" alt="discover-field-view" src="https://github.com/user-attachments/assets/074c9c6e-28f7-4993-8e53-423e5a670927" />
@@ -62,6 +62,3 @@ confirming secure communication with the Wazuh Manager.
 <img width="920" height="543" alt="ingestion-summary" src="https://github.com/user-attachments/assets/03700ab6-54f8-4b97-92ee-ea23ba140452" />
 
 ---
-
-> ⚠️ **Security note:** Crop/blur hostnames, IPs, and any secrets in screenshots before publishing. Keep full configs and raw logs in a private folder (`/configs/`, `/logs/`) if you plan to share the repo publicly.
-
