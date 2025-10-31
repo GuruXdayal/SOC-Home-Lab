@@ -39,7 +39,7 @@ Performed 4 controlled simulations (lab-only):
 ### 2) 🔍 Nmap Port Scan (Network Reconnaissance)  
 **What:** Port scanning of the Ubuntu victim to generate Suricata alerts.  
 **How the simulation was performed:**  
-- From Kali: `nmap -sS -p- <victim>` or targeted scan to trigger Suricata signatures.  
+- From Kali: `nmap -T4 -A <victim IP>` or targeted scan to trigger Suricata signatures.  
 **Detection Source:** Suricata `eve.json` alerts forwarded via Wazuh Agent.  
 **MITRE ATT&CK Mapping:**  
 - **Tactic:** Reconnaissance (TA0043) / Initial Access reconnaissance techniques  
@@ -87,7 +87,7 @@ Performed 4 controlled simulations (lab-only):
 
 ---
 
-## 🧠 Role of Kali (Attacker Machine)
+## 🐉 Role of Kali (Attacker Machine)
 - Kali acted as the **controlled adversary** to generate attack traffic: scanning (nmap), file delivery (wget/curl), and authentication attacks (hydra/scripted SSH attempts).  
 - Purpose: produce reproducible telemetry for testing detection rules, tuning thresholds, and demonstrating triage workflow.
 
@@ -104,3 +104,4 @@ As a beginner, this phase demonstrated and reinforced:
 <img width="1536" height="1024" alt="Alert flow" src="https://github.com/user-attachments/assets/b5d0a7a1-259e-4e1b-a436-4b881fc2448f" />
 
 ---
+
