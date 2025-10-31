@@ -66,6 +66,7 @@ Configured and integrated the following key components:
 - **auditd** and **osquery** for Linux host monitoring  
 
 <img width="921" height="545" alt="wazuh-dashboard" src="https://github.com/user-attachments/assets/c4152b10-8449-4532-ac37-b53e59f2507e" />
+
 <img width="683" height="518" alt="suricata-config" src="https://github.com/user-attachments/assets/67565d85-ac0d-43e9-88d6-15dfa7c23a73" />
 
 ---
@@ -114,6 +115,7 @@ Through this environment setup, I gained hands-on experience in:
 ---
 
 ⭐ *This setup built the foundation for subsequent detection engineering and incident analysis workflows documented in the later sections of this project.*
+
 
 
 
