@@ -1,4 +1,4 @@
-## ⚙️ 2. Environment Setup
+## ⚙️ Environment Setup
 
 This section outlines the technical setup and configuration process for the SOC Home Lab built using **Wazuh** and **Suricata** for endpoint and network monitoring.  
 The focus is on demonstrating **structured implementation, environment design, and validation**.
@@ -14,7 +14,7 @@ The project was built on a Windows 11 host system using **VMware Workstation Pro
 - **Virtualization:** VMware Workstation Pro  
 - **Operating System:** Windows 11  
 
-🖼️ *Screenshot Placeholder:* `![Host Specifications](https://github.com/GuruXdayal/SOC-Home-Lab/blob/main/Environment%20Setup/snapshots/host-specs.png?raw=true)`
+<img width="507" height="197" alt="host-specs" src="https://github.com/user-attachments/assets/b4ae4946-61ff-4c5c-9f53-f2fb7b51ab83" />
 
 ---
 
@@ -28,7 +28,7 @@ Each virtual machine served a specific purpose in the SOC architecture, simulati
 | **Ubuntu Victim (Suricata, auditd, osquery)** | Network IDS & Linux endpoint telemetry | 6 GB   | 50 GB | NAT          |
 | **Kali Attacker**                             | Attack simulation & testing            | 3.5 GB | 60 GB | NAT          |
 
-🖼️ *Screenshot Placeholder:* `![VMware Overview](Environment%20Setup/snapshots/vmware-overview.png)`
+![vmware-overview](https://github.com/user-attachments/assets/3df9417d-d413-499e-8ac5-a7018f026699)
 
 ---
 
@@ -46,9 +46,10 @@ The SOC environment was designed as an **isolated NAT network**, enabling contro
 - Static IP assignments for predictable communication  
 - Validated routing and gateway consistency  
 
-🖼️ *Screenshot Placeholder:* `![Network Topology](snapshots/network-topology.png)`
+<img width="447" height="164" alt="network-topology" src="https://github.com/user-attachments/assets/a69ea766-e83c-49b8-a2d0-a9a6c06d877f" />
 
 ---
+
 
 ## 🧩 4. Step-by-Step Installation Process
 All installations were performed manually following **official documentation** for Wazuh, Suricata, and supporting tools.  
@@ -64,9 +65,8 @@ Configured and integrated the following key components:
 - **Suricata** for real-time network intrusion detection  
 - **auditd** and **osquery** for Linux host monitoring  
 
-🖼️ *Screenshot Placeholders:*  
-`![Wazuh Dashboard](Environment%20Setup/snapshots/wazuh-dashboard.png)`  
-`![Suricata Configuration](Environment%20Setup/snapshots/suricata-config.png)`
+<img width="921" height="545" alt="wazuh-dashboard" src="https://github.com/user-attachments/assets/c4152b10-8449-4532-ac37-b53e59f2507e" />
+<img width="683" height="518" alt="suricata-config" src="https://github.com/user-attachments/assets/67565d85-ac0d-43e9-88d6-15dfa7c23a73" />
 
 ---
 
@@ -76,7 +76,7 @@ Verified inter-VM communication and manager-agent connectivity using:
 - Wazuh agent registration checks  
 - Suricata log forwarding validation  
 
-🖼️ *Screenshot Placeholder:* `![Ping Validation](Environment%20Setup/snapshots/ping-validation.png)`
+<img width="521" height="416" alt="ping-validation" src="https://github.com/user-attachments/assets/3a8a31b9-6c07-4748-9193-4d3f736c4925" />
 
 ---
 
@@ -99,7 +99,7 @@ The deployment followed a **bottom-up architecture** to ensure dependency alignm
 5. **Kali Attacker Setup** (Attack simulation)
 6. **Connectivity & Detection Validation**
 
-🖼️ *Screenshot Placeholder:* `![Final Environment Overview](Environment%20Setup/snapshots/final-env.png)`
+<img width="790" height="600" alt="final-env" src="https://github.com/user-attachments/assets/8f258982-b56b-44c9-9b99-9f54c45df40b" />
 
 ---
 
@@ -114,6 +114,7 @@ Through this environment setup, I gained hands-on experience in:
 ---
 
 ⭐ *This setup built the foundation for subsequent detection engineering and incident analysis workflows documented in the later sections of this project.*
+
 
 
 
