@@ -46,7 +46,7 @@ The SOC environment was designed as an **isolated NAT network**, enabling contro
 - Static IP assignments for predictable communication  
 - Validated routing and gateway consistency  
 
-🖼️ *Screenshot Placeholder:* `![Network Topology](Environment%20Setup/snapshots/network-topology.png)`
+🖼️ *Screenshot Placeholder:* `![Network Topology](snapshots/network-topology.png)`
 
 ---
 
@@ -114,5 +114,6 @@ Through this environment setup, I gained hands-on experience in:
 ---
 
 ⭐ *This setup built the foundation for subsequent detection engineering and incident analysis workflows documented in the later sections of this project.*
+
 
 
