@@ -8,10 +8,10 @@ Built using **Wazuh**, **Suricata**, **Sysmon**, **Osquery**, **Auditd**, **Viru
 ## 🧭 Table of Contents
 | Section                                                                   | Description                                                           |
 |:--------------------------------------------------------------------------|:----------------------------------------------------------------------|
-| [1️⃣ Project Overview](Project_Overview/README.md)                        | Understand the core objectives, SOC architecture, and tools used      |
-| [2️⃣ Environment & Setup](Environment_Setup/README.md)                    | Learn about host specifications, VM setup, and network configuration  |
-| [3️⃣ Log Ingestion & Data Sources](Log_Ingestion_Data_Sources/README.md)  | Explore log sources, ingestion flow, and integrations                 |
-| [4️⃣ Testing & Detection](Testing_and_Detection/README.md)                | Review detection simulations, custom rules, and alert validations     |
+| [1️⃣ Project Overview](Project_Overview)                                  | Understand the core objectives, SOC architecture, and tools used      |
+| [2️⃣ Environment & Setup](Environment_Setup)                              | Learn about host specifications, VM setup, and network configuration  |
+| [3️⃣ Log Ingestion & Data Sources](Log_Ingestion_Data_Sources)            | Explore log sources, ingestion flow, and integrations                 |
+| [4️⃣ Testing & Detection](Testing_and_Detection)                | Review detection simulations, custom rules, and alert validations     |
 | [5️⃣ Conclusion & Next Steps](Conclusion_Next_Steps/README.md)            | Project outcomes, learning reflections, and future roadmap            |
 
 ---
