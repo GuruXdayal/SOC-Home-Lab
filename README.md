@@ -15,6 +15,15 @@ Built using **Wazuh**, **Suricata**, **Sysmon**, **Osquery**, **Auditd**, **Viru
 | [5️⃣ Conclusion & Next Steps](Conclusion_Next_Steps/README.md)            | Project outcomes, learning reflections, and future roadmap            |
 
 ---
+## 🧭 Table of Contents
+| Section | Description |
+|:--|:--|
+| [1️⃣ Project Overview](./Project%20Overview/README.md) | Understand the core objectives, SOC architecture, and tools used |
+| [2️⃣ Environment & Setup](./Environment%20Setup/README.md) | Learn about host specifications, VM setup, and network configuration |
+| [3️⃣ Log Ingestion & Data Sources](./Log%20Ingestion%20&%20Data%20Sources/Readme.md) | Explore log sources, ingestion flow, and integrations |
+| [4️⃣ Testing & Detection](./Testing%20&%20Detection/README.md) | Review detection simulations, custom rules, and alert validations |
+| [5️⃣ Conclusion & Next Steps](./Conclusion%20&%20Next%20Steps/README.md) | Project outcomes, learning reflections, and future roadmap |
+
 
 ## 🧩 Project Summary
 
