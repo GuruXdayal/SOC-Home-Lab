@@ -25,6 +25,7 @@ It demonstrates my ability to:
 - Develop and validate custom detection rules (Wazuh + Suricata).  
 - Simulate attack scenarios and visualize detections via dashboards.  
 - Integrate external intelligence and AI-assisted workflows.
+- Mapped attack techniques and behaviors to the MITRE ATT&CK framework.
 
 This project bridges the gap between **security theory and practical SOC operations**, showcasing real-world exposure and technical hands-on skills expected from a **SOC Level-1 Analyst**.
 
@@ -33,7 +34,8 @@ This project bridges the gap between **security theory and practical SOC operati
 ## 🧠 Technical Highlights
 
 - **Detection Stack:** Wazuh SIEM, Suricata IDS, Sysmon, Auditd, Osquery  
-- **Threat Simulations:** Malicious file execution, Nmap scan detection, File Integrity Monitoring, SSH Brute-Force  
+- **Threat Simulations:** Malicious file execution, Nmap scan detection, File Integrity Monitoring, SSH Brute-Force
+- **MITRE ATT&CK Mapping:** Aligned simulated attack techniques and detections with ATT&CK tactics and techniques. 
 - **Integration:** VirusTotal API for hash enrichment  
 - **Virtual Environment:** VMware-based multi-VM SOC topology  
 - **Automation & Troubleshooting:** Assisted through AI tools like Claude & ChatGPT  
