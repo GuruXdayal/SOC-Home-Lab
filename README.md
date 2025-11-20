@@ -52,9 +52,7 @@ AI tools played a pivotal role in:
 ---
 
 ## 🧱 Simplified Project Architecture
-
-*(Placeholder — diagram will be added here)*  
-`/snapshots/project-architecture.png`
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/73c574e4-c695-4a88-9cd4-3618866a64e3" />
 
 > The diagram will visually represent the high-level ecosystem:  
 > **Event Sources (Ubuntu & Windows)** → **Wazuh Agent** → **Wazuh Manager** → **Dashboard & Threat Intelligence Integration (VirusTotal)**  
